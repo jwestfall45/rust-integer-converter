@@ -1,7 +1,7 @@
 # rust-integer-converter
-A simple application built in Rust to convert an integer value into its binary and hexadecimal representation.
+A simple application built in Rust to print an integer value as its binary and hexadecimal representation.
 
-This application was created solely as a learning project to explore Rust concepts, including primitives, data types, and other fundamental aspects of the language.
+This application was created solely as a learning project to explore Rust concepts, including Cargo, data types, and other fundamental aspects of the language.
 
 ## Build
 To compile the package:
@@ -24,7 +24,6 @@ Replace `<integer>` with the unsigned integer value you want to convert.
 
 ## Example Output
 ```sh
-cargo build
 cargo run 25
   Int Value: 25
   Hex Value: 0x19
